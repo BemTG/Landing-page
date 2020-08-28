@@ -1,5 +1,6 @@
 from flask import Flask, render_template, request
 import sendgrid
+from sendgrid import SendGridAPIClient
 from sendgrid.helpers.mail import Email
 from sendgrid.helpers.mail import Content
 from sendgrid.helpers.mail import Mail
